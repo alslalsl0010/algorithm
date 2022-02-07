@@ -5,9 +5,8 @@ int fibonacci(int);
 
 int main()
 {
-    // ios::sync_with_stdio(false);
-    // cin.tie(NULL);
-
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
     int n;
     cin >> n;
     cout << fibonacci(n);
@@ -26,3 +25,5 @@ int fibonacci(int n)
     }
     return (fibonacci(n - 1) + fibonacci(n - 2));
 }
+// 피보나치 함수안에 n을 넣지않는 실수를 하지말자
+//cin.tie, ios 잊지말기
