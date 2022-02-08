@@ -11,9 +11,9 @@ int main()
     int n;
     cin >> n;
     for (int y = 0; y < n; y++)
-    { // x축
+    { // y축
         for (int x = 0; x < n; x++)
-        { // y축
+        { // x축
             star(x, y, n);
         }
         cout << '\n';
